@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Create the item</title>
+	<link rel="stylesheet" href="index.html">
+</head>
+<body>
+	<button id="home">Back home</button>
+	<br><hr>
+	<input type="text" id="new-item" placeholder="Content . . .">
+	<button id="add">Add</button>
+
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	<script src="create.js"></script>
+	<script type="text/javascript">
+		var home = document.getElementById('home');
+		home.addEventListener('click', function() {
+			window.location = "/";
+		})
+	</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Delete Item</title>
+	<style>
+		ul{
+			list-style: none;
+		}
+	</style>
+</head>
+<body>
+	<button id="home">Back home</button>
+	<br><hr>
+	<ul id="items-list">
+		
+	</ul>
+	<button id="delete-item">Delete</button>
+
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	<script src="delete.js"></script>
+	<script type="text/javascript">
+		var home = document.getElementById('home');
+		home.addEventListener('click', function() {
+			location.replace('/');
+		})
+	</script>
+</body>
+</html>

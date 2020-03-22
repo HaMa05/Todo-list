@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Edit the item</title>
+	<!-- <link rel="stylesheet" href="index.html"> -->
+</head>
+<body>
+	<button id="home">Back home</button>
+	<br><hr>
+	<p>Change content you want !!</p>
+	<input type="text" id="edit-item" >
+	<button id="save">Save</button>
+
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	<script src="edit.js"></script>
+	<script type="text/javascript">
+		var home = document.getElementById('home');
+		home.addEventListener('click', function() {
+			location.replace('/');
+		})
+	</script>
+</body>
+</html>
